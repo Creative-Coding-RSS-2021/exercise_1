@@ -5,9 +5,12 @@
 First things first. Get this repository locally and start your own branch:
 ````
 # clone it localy
-git clone git@github.com:Creative-Coding-RSS-2021/exercise_1.git
+git clone https://github.com/Creative-Coding-RSS-2021/exercise_1.git
 
-# create your own branch: 
+# go to folder
+cd exercise_1
+
+# create/switch to your own branch: 
 git checkout -b my_very_special_branch_name
 ````
 
