@@ -1,0 +1,24 @@
+{
+    "name": "exercise_1",
+    "version": "0.0.1",
+    "description": "Exercise 1",
+    "scripts": {
+      "dev": "webpack serve --config ./webpack.dev.js",
+      "build": "webpack --config ./webpack.build.js"
+    },    
+    "license": "MIT",
+    "devDependencies": {
+      "clean-webpack-plugin": "^4.0.0-alpha.0",
+      "copy-webpack-plugin": "^9.0.0",
+      "css-loader": "^5.2.6",
+      "file-loader": "^6.2.0",
+      "html-webpack-plugin": "^5.3.1",
+      "mini-css-extract-plugin": "^1.6.0",
+      "portfinder-sync": "^0.0.2",
+      "webpack": "^5.37.1",
+      "webpack-cli": "^4.7.0",
+      "webpack-dev-server": "^3.11.2",
+      "webpack-merge": "^5.7.3"
+    }
+  }
+  
