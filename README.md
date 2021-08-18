@@ -87,7 +87,7 @@ context.fillRect(0, 0, 150, 150)
 
 ````
 
-**Task: **
+### Task:
 
 take a look at this [Drawing Shapes Tutorial](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes)
 and extend your drawing with a few other shapes. 
@@ -96,22 +96,22 @@ when you are done commit/push your current branch state back to repository.
 
 
 
-## Lesson 3
+## Lesson 3: color with javascript
 
-**Goal: learn javascript statements `for` and `if...else`, declaration of `function` by manupulating `rgba` channels**
+**Goal: learn javascript statements `for` and `if...else`, declaration of `function` by manipulating `rgb` channels**
 
-you have already your `canvas` context in place now lets start to use it in `for` statement.
+you have already your `canvas` context in place, now let's start to use it in `for` statement.
 
 - We will draw a gradient of red color from left to right.
 
 ````
-    ## declar variables we need to write our gradient
+    ## declare variables we need for our gradient
     const steps = 10
     const sceneHeight = canvas.height
     const sceneWidth = canvas.width
     const step = sceneWidth/steps
     
-    ## and now run fill a red channel step by step
+    ## fill a red channel step by step
     for(i=0; i<= sceneWidth; i = i + step){
     
         # turn channel light proportionaly to a current step
@@ -156,7 +156,7 @@ leftToRightGradient('b')
 
 ````
 
-**Tasks: **
+### Tasks:
 
 - try to draw gradient from top to down
 - try to combine both top/down and left/right gradient in a single gradient
