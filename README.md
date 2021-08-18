@@ -82,10 +82,14 @@ const context = canvas.getContext('2d');
 - now you can start drawing, for example like that:
 
 ````
-
+context.fillStyle = 'red'
+context.fillRect(0, 0, 150, 150)
 
 ````
+take a look at this [Drawing Shapes Tutorial](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes)
+and extend your drawing with a few other shapes. 
 
+when you are done commit/push your current branch state back to repository.
 
 
 
